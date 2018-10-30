@@ -1,0 +1,16 @@
+PODS:
+  - BSBacktraceLogger (0.0.1)
+
+DEPENDENCIES:
+  - BSBacktraceLogger (from `../`)
+
+EXTERNAL SOURCES:
+  BSBacktraceLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSBacktraceLogger: 68610207ef7f6d98ff408ffa012ad3e507aa73ef
+
+PODFILE CHECKSUM: 705122bec9caba9b7a76200905cbcf9ad784eadd
+
+COCOAPODS: 1.5.3
