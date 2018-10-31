@@ -2,15 +2,21 @@ PODS:
   - BSBacktraceLogger (0.0.1)
 
 DEPENDENCIES:
-  - BSBacktraceLogger (from `../`)
+  - BSBacktraceLogger (from `https://github.com/yixiangboy/BSBacktraceLogger.git`, tag `0.0.1`)
 
 EXTERNAL SOURCES:
   BSBacktraceLogger:
-    :path: "../"
+    :git: https://github.com/yixiangboy/BSBacktraceLogger.git
+    :tag: 0.0.1
+
+CHECKOUT OPTIONS:
+  BSBacktraceLogger:
+    :git: https://github.com/yixiangboy/BSBacktraceLogger.git
+    :tag: 0.0.1
 
 SPEC CHECKSUMS:
-  BSBacktraceLogger: 68610207ef7f6d98ff408ffa012ad3e507aa73ef
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
 
-PODFILE CHECKSUM: 705122bec9caba9b7a76200905cbcf9ad784eadd
+PODFILE CHECKSUM: 49d319e296555cebfa1465f8c9f3ec0c64e5b181
 
 COCOAPODS: 1.5.3

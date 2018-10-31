@@ -12,5 +12,6 @@ post_install do |installer|
 end
 
 target :'BSBacktraceLogger' do
-    pod 'BSBacktraceLogger',  :path => '../'
+    ####pod 'BSBacktraceLogger',  :path => '../'
+    pod 'BSBacktraceLogger', :git => 'https://github.com/yixiangboy/BSBacktraceLogger.git', :tag => '0.0.1'
 end

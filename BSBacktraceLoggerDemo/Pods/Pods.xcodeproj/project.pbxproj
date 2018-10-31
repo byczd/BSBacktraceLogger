@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29F268646C2B6E8E3F80B65618E7F264 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 646C91EC7FBEA6E0DA3C7E2745E58A0A /* BSBacktraceLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6BCD046FBEC9DDBBF9F8FB8B0F5D5E9D /* BSBacktraceLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBE670D14DA1B9A8B98D9110A867868 /* BSBacktraceLogger-dummy.m */; };
-		C0510522F82E269E2333EBBB0669E65C /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B19B80E95AD8D944698BFCCCBD807E5B /* BSBacktraceLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29F268646C2B6E8E3F80B65618E7F264 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09012E648555B802CCA71BE833407433 /* BSBacktraceLogger.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6BCD046FBEC9DDBBF9F8FB8B0F5D5E9D /* BSBacktraceLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F14DB61F8F507A262D124B4CA58DDF /* BSBacktraceLogger-dummy.m */; };
+		C0510522F82E269E2333EBBB0669E65C /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BD45E4F000A6C19FD9912692B4E7BBC1 /* BSBacktraceLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F7ABC3EE5C035F92A14B06C87793E11A /* Pods-BSBacktraceLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4F1C28EBBE67641E53B5E65FD6AEA /* Pods-BSBacktraceLogger-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -25,20 +25,17 @@
 
 /* Begin PBXFileReference section */
 		08F050CCEA96203CE42C665EF9890EAC /* Pods-BSBacktraceLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSBacktraceLogger.debug.xcconfig"; sourceTree = "<group>"; };
-		111FEE6295D59527BDEEEE99059F64ED /* BSBacktraceLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BSBacktraceLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3AFF2F47DE4650C4C4DAC7695BE0E91B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3D243BBA0E95DBDF02B76A38369248BA /* BSBacktraceLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSBacktraceLogger-prefix.pch"; sourceTree = "<group>"; };
+		09012E648555B802CCA71BE833407433 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSBacktraceLogger.m; path = BSBacktraceLogger/BSBacktraceLogger.m; sourceTree = "<group>"; };
+		2C875EA197BF3EC726489A71A9849FF8 /* BSBacktraceLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSBacktraceLogger-prefix.pch"; sourceTree = "<group>"; };
+		39B2E148E41ED1A2D41FA5660FB0C537 /* BSBacktraceLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSBacktraceLogger.xcconfig; sourceTree = "<group>"; };
 		4017AC65EECA7857880D78CA45F37465 /* Pods-BSBacktraceLogger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSBacktraceLogger-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5775D6C4BACA83869A7ED99436B8EBCA /* libBSBacktraceLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBSBacktraceLogger.a; path = libBSBacktraceLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		646C91EC7FBEA6E0DA3C7E2745E58A0A /* BSBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSBacktraceLogger.m; path = BSBacktraceLogger/BSBacktraceLogger.m; sourceTree = "<group>"; };
 		654A5D27737FD0F7898D6BCA1218C984 /* libPods-BSBacktraceLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BSBacktraceLogger.a"; path = "libPods-BSBacktraceLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75FB760FB67BEC00DF26DD155FEDACF3 /* BSBacktraceLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSBacktraceLogger.xcconfig; sourceTree = "<group>"; };
 		7CD4F1C28EBBE67641E53B5E65FD6AEA /* Pods-BSBacktraceLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSBacktraceLogger-dummy.m"; sourceTree = "<group>"; };
 		808583F07E61ABB2713D3FE4A32DB0F7 /* Pods-BSBacktraceLogger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSBacktraceLogger-resources.sh"; sourceTree = "<group>"; };
-		8DBE670D14DA1B9A8B98D9110A867868 /* BSBacktraceLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSBacktraceLogger-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B19B80E95AD8D944698BFCCCBD807E5B /* BSBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBacktraceLogger.h; path = BSBacktraceLogger/BSBacktraceLogger.h; sourceTree = "<group>"; };
-		D587425AA798B925E3B49DFA07F01DE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD45E4F000A6C19FD9912692B4E7BBC1 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBacktraceLogger.h; path = BSBacktraceLogger/BSBacktraceLogger.h; sourceTree = "<group>"; };
+		C6F14DB61F8F507A262D124B4CA58DDF /* BSBacktraceLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSBacktraceLogger-dummy.m"; sourceTree = "<group>"; };
 		DE176A5801EDB9344E133AC12CA37802 /* Pods-BSBacktraceLogger-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSBacktraceLogger-frameworks.sh"; sourceTree = "<group>"; };
 		E45A5BFDFE08EC89A4EB5A24C2230CEE /* Pods-BSBacktraceLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSBacktraceLogger.release.xcconfig"; sourceTree = "<group>"; };
 		FAF0286B8216E6E68F04E350FEC5680F /* Pods-BSBacktraceLogger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSBacktraceLogger-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -69,16 +66,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		222E386E4B3679DE383C1D196084509A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				111FEE6295D59527BDEEEE99059F64ED /* BSBacktraceLogger.podspec */,
-				3AFF2F47DE4650C4C4DAC7695BE0E91B /* LICENSE */,
-				D587425AA798B925E3B49DFA07F01DE0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		44EF4CEC3006D48933E39630EDC37866 /* Pods-BSBacktraceLogger */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,23 +89,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6FD552D56F3F702544DCE953A42E6BDE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				75FB760FB67BEC00DF26DD155FEDACF3 /* BSBacktraceLogger.xcconfig */,
-				8DBE670D14DA1B9A8B98D9110A867868 /* BSBacktraceLogger-dummy.m */,
-				3D243BBA0E95DBDF02B76A38369248BA /* BSBacktraceLogger-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "BSBacktraceLoggerDemo/Pods/Target Support Files/BSBacktraceLogger";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B8B928C82875878867FD85A53502A636 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				B9A1189EA6ACF1EDD2504C790EEB3196 /* Pods */,
 				80ED9F4BDCA819F78288103DE7692FE7 /* Products */,
 				531F0F6B4833CA48FAF89F656E3BAA29 /* Targets Support Files */,
 			);
@@ -133,24 +109,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8B928C82875878867FD85A53502A636 /* Development Pods */ = {
+		8DA8C334AF55E7A335CFE3E8FEAFD8DB /* BSBacktraceLogger */ = {
 			isa = PBXGroup;
 			children = (
-				DF3D1A44C8DCB7276B26882A96BB8E2F /* BSBacktraceLogger */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		DF3D1A44C8DCB7276B26882A96BB8E2F /* BSBacktraceLogger */ = {
-			isa = PBXGroup;
-			children = (
-				B19B80E95AD8D944698BFCCCBD807E5B /* BSBacktraceLogger.h */,
-				646C91EC7FBEA6E0DA3C7E2745E58A0A /* BSBacktraceLogger.m */,
-				222E386E4B3679DE383C1D196084509A /* Pod */,
-				6FD552D56F3F702544DCE953A42E6BDE /* Support Files */,
+				BD45E4F000A6C19FD9912692B4E7BBC1 /* BSBacktraceLogger.h */,
+				09012E648555B802CCA71BE833407433 /* BSBacktraceLogger.m */,
+				C57786B5EF4FC582E25F6F1C5B56AD71 /* Support Files */,
 			);
 			name = BSBacktraceLogger;
-			path = ../..;
+			path = BSBacktraceLogger;
+			sourceTree = "<group>";
+		};
+		B9A1189EA6ACF1EDD2504C790EEB3196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA8C334AF55E7A335CFE3E8FEAFD8DB /* BSBacktraceLogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C57786B5EF4FC582E25F6F1C5B56AD71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39B2E148E41ED1A2D41FA5660FB0C537 /* BSBacktraceLogger.xcconfig */,
+				C6F14DB61F8F507A262D124B4CA58DDF /* BSBacktraceLogger-dummy.m */,
+				2C875EA197BF3EC726489A71A9849FF8 /* BSBacktraceLogger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSBacktraceLogger";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,7 +354,7 @@
 		};
 		4C86231449FAEBBC4D1030508D46361D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FB760FB67BEC00DF26DD155FEDACF3 /* BSBacktraceLogger.xcconfig */;
+			baseConfigurationReference = 39B2E148E41ED1A2D41FA5660FB0C537 /* BSBacktraceLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -393,7 +379,7 @@
 		};
 		B5ECD9AC66729412EF490EF247AE7505 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FB760FB67BEC00DF26DD155FEDACF3 /* BSBacktraceLogger.xcconfig */;
+			baseConfigurationReference = 39B2E148E41ED1A2D41FA5660FB0C537 /* BSBacktraceLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
